@@ -23,13 +23,6 @@ class DatabaseSeeder extends Seeder
                 'date' => '2000-01-01'
             ]
         );
-        DayFact::create(
-            [
-                'title'=> 'Oops!!!',
-                'slug' => 'facts-are-over',
-                'fact' => 'Sorry, we are looking for new interesting facts. Try checking tomorrow'
-            ]
-        );
 
         // \App\Models\User::factory(10)->create();
         //\DB::table('day_facts')->insert([
